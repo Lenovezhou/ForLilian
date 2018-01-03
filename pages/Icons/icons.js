@@ -13,7 +13,7 @@ Page({
       'success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'
     ]
   },
-
+  Consalto:function(){console.log("hello-----<<<<<")},
   /**
    * 生命周期函数--监听页面加载
    */

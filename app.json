@@ -1,33 +1,41 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/Lilian/lilian",
     "pages/Icons/icons"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "ForLilian",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "Images/auto.png",
+        "selectedIconPath": "Images/auto.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "日志",
+        "iconPath": "Images/moon.png",
+        "selectedIconPath": "Images/moon.png"
       },
       {
-        "pagePath":"pages/Lilian/lilian",
-        "text": "Lilian"
+        "pagePath": "pages/Lilian/lilian",
+        "text": "Lilian",
+        "iconPath": "Images/sun.png",
+        "selectedIconPath": "Images/sun.png"
       },
       {
-        "pagePath":"pages/Icons/icons",
-        "text":"test!"
+        "pagePath": "pages/Icons/icons",
+        "text": "test!",
+        "iconPath": "Images/auto.png",
+        "selectedIconPath": "Images/auto.png"
       }
     ]
   }

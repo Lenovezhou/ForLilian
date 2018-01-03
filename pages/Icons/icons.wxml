@@ -2,7 +2,7 @@
 <text>pages/Icons/icons.wxml</text>
 <view class="group">
   <block wx:for="{{iconSize}}">
-    <icon type="success" size="{{item}}"/>
+    <icon bindtap='Consalto' type="success" size="{{item}}"/>
   </block>
 </view>
 
