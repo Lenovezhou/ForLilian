@@ -2,8 +2,8 @@
 .userinfo {
   display: flex;
   flex-direction: column;
-  margin-top: -100px;
-  /* align-items: center; */
+  /* margin-top: -100px; */
+   align-items: center; 
 }
 
 .userinfo-avatar {

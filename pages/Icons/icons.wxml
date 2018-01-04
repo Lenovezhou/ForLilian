@@ -2,19 +2,66 @@
 <text>pages/Icons/icons.wxml</text>
 <view class="group">
   <block wx:for="{{iconSize}}">
-    <icon bindtap='Consalto' type="success" size="{{item}}"/>
+    <icon bindtap='Consalto' type="success" size="{{item}}" />
   </block>
 </view>
 
 <view class="group">
   <block wx:for="{{iconType}}">
-    <icon type="{{item}}" size="40"/>
+    <icon type="{{item}}" size="40" />
   </block>
 </view>
 
+<view class='group'>
+  <block wx:for="{{iconColor}}">
+    <icon type='cancel' size="40" color="{{item}}"></icon>
+  </block>
+</view>
 
 <view class="group">
   <block wx:for="{{iconColor}}">
-    <icon type="success" size="40" color="{{item}}"/>
+    <icon type="success" size="40" color="{{item}}" />
   </block>
-</view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='success_no_circle' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='info' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='warn' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='waiting' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='download' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='search' size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+
+  <view class='group'>
+    <block wx:for="{{iconColor}}">
+      <icon type='clear' size="40" color="{{item}}"></icon>
+    </block>
+   </view>
+  </view>

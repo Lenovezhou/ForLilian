@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/Game/game",
     "pages/Lilian/lilian",
     "pages/Icons/icons"
   ],
@@ -16,26 +16,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "Images/auto.png",
-        "selectedIconPath": "Images/auto.png"
+        "iconPath": "Images/home0.png",
+        "selectedIconPath" : "Images/home1.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath": "Images/moon.png",
-        "selectedIconPath": "Images/moon.png"
+        "pagePath": "pages/Game/game",
+        "text": "游戏",
+        "iconPath": "Images/game0.png",
+        "selectedIconPath": "Images/game1.png"
       },
       {
         "pagePath": "pages/Lilian/lilian",
         "text": "Lilian",
-        "iconPath": "Images/sun.png",
-        "selectedIconPath": "Images/sun.png"
+        "iconPath": "Images/love0.png",
+        "selectedIconPath": "Images/love1.png"
       },
       {
         "pagePath": "pages/Icons/icons",
         "text": "test!",
-        "iconPath": "Images/auto.png",
-        "selectedIconPath": "Images/auto.png"
+        "iconPath": "Images/test0.png",
+        "selectedIconPath": "Images/test1.png"
       }
     ]
   }

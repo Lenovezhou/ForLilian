@@ -1,0 +1,5 @@
+/* pages/Game/game.wxss */
+.buttoninfo
+{
+  size: 80;
+}
